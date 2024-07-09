@@ -38,3 +38,8 @@ body {
 .hero_mobile_img {
   width: 100%;
 }
+
+.logo_img {
+  padding: 2rem;
+  max-width: 5rem;
+}
