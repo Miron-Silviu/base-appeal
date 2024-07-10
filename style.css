@@ -25,7 +25,8 @@
   );
   /*  Font Family  */
 
-  --font-family: 'Josefine Sans', Sans-serif;
+  /* --font-family: 'Josefine Sans', Sans-serif; */
+  --font-family: 'Josefin Sans', sans-serif;
 }
 
 /* mobile  */
@@ -51,4 +52,11 @@ body {
 .logo_img {
   padding: 2rem;
   max-width: 5rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 }
