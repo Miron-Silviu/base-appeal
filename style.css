@@ -54,7 +54,7 @@ body {
   max-width: 5rem;
 }
 
-article {
+.text {
   display: flex;
   flex-direction: column;
   align-items: center;
