@@ -12,9 +12,17 @@
 
   /* Gradients */
 
-  --Linear-gradient: 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-  --Linear: 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  --gradient-from-white-to-gray: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
 
+  --gradient-from-light-pink-to-orange: linear-gradient(
+    135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
   /*  Font Family  */
 
   --font-family: 'Josefine Sans', Sans-serif;
@@ -25,9 +33,10 @@
 body {
   background: black;
   max-height: 100vh;
+  font-family: var(--font-family);
 }
 .container {
-  background-color: white;
+  background: var(--gradient-from-white-to-gray);
   max-width: 100vw;
   margin: 1rem;
   max-width: 100vh;
