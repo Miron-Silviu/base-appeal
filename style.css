@@ -58,11 +58,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
   line-height: normal;
 }
 
-.title {
+.first_heading {
   color: var(--Desaturated-Red);
   font-weight: 300;
   font-family: var(--font-family);
@@ -71,11 +71,17 @@ body {
   letter-spacing: 8px;
 }
 
-h1 {
+.second_heading {
   font-weight: 600;
   line-height: 1;
   letter-spacing: 6px;
   flex-wrap: wrap;
   margin: auto;
+  text-align: center;
+}
+
+.shop_info {
+  color: var(--Desaturated-Red);
+  font-weight: 300;
   text-align: center;
 }
