@@ -65,10 +65,10 @@ body {
 .title {
   color: var(--Desaturated-Red);
   font-weight: 300;
-  font-size: 1rem;
   font-family: var(--font-family);
   justify-content: center;
   line-height: 0.2;
+  letter-spacing: 8px;
 }
 
 h1 {
