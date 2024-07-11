@@ -59,18 +59,23 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 1rem 2rem;
+  line-height: normal;
 }
 
 .title {
   color: var(--Desaturated-Red);
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: var(--font-family);
+  justify-content: center;
+  line-height: 0.2;
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 6px;
   flex-wrap: wrap;
-  font-size: 3rem;
   margin: auto;
+  text-align: center;
 }
