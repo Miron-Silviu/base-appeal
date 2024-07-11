@@ -62,7 +62,7 @@ body {
   line-height: normal;
 }
 
-.title {
+.first_heading {
   color: var(--Desaturated-Red);
   font-weight: 300;
   font-family: var(--font-family);
@@ -71,7 +71,7 @@ body {
   letter-spacing: 8px;
 }
 
-h1 {
+.second_heading {
   font-weight: 600;
   line-height: 1;
   letter-spacing: 6px;
