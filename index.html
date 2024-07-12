@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta nane="description" content="Base Apparel" />
+    <meta name="description" content="Base Apparel" />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -25,38 +25,38 @@
     />
   </head>
   <body>
-    <section class="container">
-      <!-- head -->
+    <div class="container">
+      <img class="logo_img" src="./images/logo.svg" alt="logo" />
 
-      <head>
-        <img class="logo_img" src="./images/logo.svg" alt="logo" />
-      </head>
-      <!-- main -->
-
-      <main class="informations">
+      <div class="informations">
         <img
           class="hero_mobile_img"
           src="./images/hero-mobile.jpg"
           alt="hero"
         />
-        <article>
-          <h1>WE'RE</h1>
-          <h2>COMING SOON</h2>
-          <p>
+        <article class="text">
+          <h2 class="first_heading">WE'RE</h2>
+          <h1 class="second_heading">COMING SOON</h1>
+          <p class="shop_info">
             Hello fellow shoppers! WE're currently building our new fashion
             store. Add you email below to stay up-to-dat with annoucements and
-            our lanch deals.
+            our launch deals.
           </p>
         </article>
-      </main>
-      <!-- footer -->
+      </div>
 
-      <footer class="bottom">
-        <input type="email" id="email" placeholder="Email Adress" required />
-        <button type="button">
+      <div class="bottom">
+        <input
+          class="email_input"
+          type="email"
+          id="email"
+          placeholder="Email Address"
+          required
+        />
+        <button class="button_send_email" type="button">
           <img src="./images/icon-arrow.svg" alt="arrow" />
         </button>
-      </footer>
-    </section>
+      </div>
+    </div>
   </body>
 </html>
