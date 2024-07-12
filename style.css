@@ -93,11 +93,11 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 100vw;
-  background-color: red;
+  margin-left: 4rem;
 }
 
 .email_input {
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 50px;
   background: var(--gradient-from-white-to-gray);
   border: 1px solid var(--Desaturated-Red);
@@ -106,4 +106,19 @@ body {
 
 ::placeholder {
   color: var(--Desaturated-Red);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.button_send_email {
+  position: relative;
+  right: 3.1rem;
+  padding: 1.2rem;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  background: var(--gradient-from-light-pink-to-orange);
+  border: 1px var(--Desaturated-Red);
+  color: var(--gradient-from-light-pink-to-orange);
 }
