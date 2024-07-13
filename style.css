@@ -121,4 +121,5 @@ body {
   background: var(--gradient-from-light-pink-to-orange);
   border: 1px var(--Desaturated-Red);
   color: var(--gradient-from-light-pink-to-orange);
+  box-shadow: 0 3px 5px var(--Desaturated-Red);
 }
