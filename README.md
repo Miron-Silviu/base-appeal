@@ -14,8 +14,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,6 +26,10 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
+### Links
+
+[VIEW DEMO](https://miron-silviu.github.io/base-appeal/)
+
 ### Screenshot
 
 ![mobile-design](image.png)
@@ -39,10 +41,6 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-[VIEW DEMO](https://miron-silviu.github.io/base-appeal/)
 
 ## My process
 
