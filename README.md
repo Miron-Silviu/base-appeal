@@ -44,6 +44,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+Starting the project by create index.html, styl.css and add normalizie.css files.
+Inside index.html added html elements . Crate links for style and normalize.css
+Using mobile first approach.
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -51,8 +55,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
