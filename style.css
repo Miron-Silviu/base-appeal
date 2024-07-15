@@ -122,4 +122,23 @@ body {
   border: 1px var(--Desaturated-Red);
   color: var(--gradient-from-light-pink-to-orange);
   box-shadow: 0 3px 5px var(--Desaturated-Red);
+
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .informations {
+    display: flex;
+    max-width: 20rem;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .hero_mobile_img {
+    display: none;
+  }
+
+
 }
