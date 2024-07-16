@@ -131,9 +131,12 @@ body {
   }
   .informations {
     display: flex;
-    max-width: 20rem;
+    max-width: 30rem;
     justify-content: center;
-    margin: 0 auto;
+  }
+  .text {
+    text-align: left;
+    max-width: 10rem;
   }
   .hero_mobile_img {
     display: none;
