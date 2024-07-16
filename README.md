@@ -11,8 +11,6 @@
 - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -24,6 +22,10 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
+
+### Links
+
+[VIEW DEMO](https://miron-silviu.github.io/base-appeal/)
 
 ### Screenshot
 
@@ -37,14 +39,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-### Links
-
-[VIEW DEMO](https://miron-silviu.github.io/base-appeal/)
-
 ## My process
 
 Starting the project by create index.html, styl.css and add normalizie.css files.
-Inside index.html added html elements . Crate links for style and normalize.css
+Inside index.html added html elements . Crate links for style and normalize.css.
 Using mobile first approach.
 
 ### Built with
