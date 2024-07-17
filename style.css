@@ -122,7 +122,6 @@ body {
   border: 1px var(--Desaturated-Red);
   color: var(--gradient-from-light-pink-to-orange);
   box-shadow: 0 3px 5px var(--Desaturated-Red);
-
 }
 
 @media screen and (min-width: 600px) {
@@ -132,16 +131,25 @@ body {
   }
   .informations {
     display: flex;
-    max-width: 30rem;
+    /* max-width: 30rem; */
     justify-content: center;
+    background-color: rgb(207, 187, 187);
   }
   .text {
     text-align: left;
-    max-width: 10rem;
   }
   .hero_mobile_img {
     display: none;
   }
-
-
+  .logo_img {
+    margin-bottom: 20rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: left;
+    margin: 4rem 0 4rem 4rem;
+    min-height: 100vh;
+  }
 }
