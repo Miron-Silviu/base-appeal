@@ -152,9 +152,26 @@ body {
   }
   .text {
     display: flex;
-    max-width: 50vw;
+    width: 50%;
     text-align: left;
     min-height: 10vh;
     justify-content: left;
+    background-color: red;
+  }
+  .first_heading {
+    font-weight: 700;
+    margin-right: auto;
+  }
+  .second_heading {
+    width: 100%;
+  }
+
+  .shop_info,
+  .second_heading,
+  .first_heading {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    font-size: 25px;
   }
 }
