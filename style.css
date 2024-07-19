@@ -127,10 +127,21 @@ body {
 @media screen and (min-width: 600px) {
   .main_container {
     display: flex;
+    width: 100%;
+    background: blue;
+  }
+  .aside_container {
+    background: purple;
+    width: 50%;
+  }
+  .hero_desktop_img {
+    max-width: 45vw;
+    max-height: 100vh;
   }
   .container {
     display: flex;
     justify-content: center;
+    width: 50%;
   }
   .informations {
     display: flex;
