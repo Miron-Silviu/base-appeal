@@ -46,9 +46,7 @@ Using mobile first approach.
 - Mobile-first workflow
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+## What I learned
 
 To see how you can add code snippets, see below:
 
@@ -58,7 +56,19 @@ To see how you can add code snippets, see below:
 
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  .button_send_email {
+    position: relative;
+    right: 3.1rem;
+    padding: 1.2rem;
+    height: 44px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background: var(--gradient-from-light-pink-to-orange);
+    border: 1px var(--Desaturated-Red);
+    color: var(--gradient-from-light-pink-to-orange);
+    box-shadow: 0 3px 5px var(--Desaturated-Red);
+  }
 }
 ```
 
