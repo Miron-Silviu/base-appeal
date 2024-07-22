@@ -149,10 +149,6 @@ body {
     margin-bottom: 20rem;
   }
 
-  .first_heading {
-    font-weight: 700;
-    margin-right: auto;
-  }
   .second_heading {
     width: 100%;
   }
@@ -201,5 +197,16 @@ body {
   }
   .button_send_email {
     margin-right: 10rem;
+  }
+  /* headings */
+  .first_heading {
+    font-size: 35px;
+    margin-right: auto;
+  }
+  .second_heading {
+    font-size: 40px;
+  }
+  .shop_info {
+    font-size: 1rem;
   }
 }
