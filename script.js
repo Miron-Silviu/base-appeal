@@ -2,14 +2,15 @@
 // Create variables and store classes
 let input = document.querySelector('.email_input');
 let button = document.querySelector('.button_send_eamil');
-let form = document.querySelector('.bottom');
 
 // Add listenner even and implemet the logic.
 
 button = addEventListener('click', function () {
-  if (button) {
-    alert('The form is empty');
+  if (input !== 0) {
+    alert('The address formated is not formatted correctly');
+  } else if (input === 0) {
+    alert('The input field is empty');
   } else {
-    console.log('Not working');
+    alert('Your email is submitted');
   }
 });
