@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-[mobile-design](image.png)
-[Lighthouse](image-1.png)
+![mobile-design](image.png)
+![Lighthouse](image-1.png)
 
 ## My process
 
