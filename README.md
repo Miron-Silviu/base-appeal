@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile-design](image.png)
+[mobile-design](image.png)
+[Lighthouse](image-1.png)
 
 ## My process
 
@@ -48,7 +49,7 @@ Using mobile first approach.
 
 ## What I learned
 
-To see how you can add code snippets, see below:
+I learned Regular Expression and I used it to validate email format .
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -74,11 +75,20 @@ To see how you can add code snippets, see below:
 
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉');
+  // Function to validate email format using a regular expression
+
+  function isEmailValid(input) {
+    const emailPatern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPatern.test(input);
+  }
+
+  // Function to check if the email is invalid
+
+  function isemailInvalid(input) {
+    return !isEmailValid(input);
+  }
 };
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ## Author
 
