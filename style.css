@@ -119,8 +119,8 @@ body {
   display: flex;
   align-items: center;
   background: var(--gradient-from-light-pink-to-orange);
-  border: 1px var(--Desaturated-Red);
-  color: var(--gradient-from-light-pink-to-orange);
+  border: 1px solid var(--Desaturated-Red);
+  color: var(--Dark-Grayish-Red);
   box-shadow: 0 3px 5px var(--Desaturated-Red);
 }
 .hero_desktop_img {
